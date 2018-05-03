@@ -37,7 +37,6 @@ public abstract class Warrior {
         if (hasArmor())
             damage = armor.reduceDamageGiven(damage);
         return damage;
-
     }
 
     private int getSufferedDamage(Warrior attacker) {
